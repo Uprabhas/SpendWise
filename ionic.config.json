@@ -1,0 +1,7 @@
+{
+  "name": "SpendWise",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

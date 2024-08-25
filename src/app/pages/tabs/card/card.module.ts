@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { CardPageRoutingModule } from './card-routing.module';
 
 import { CardPage } from './card.page';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    CardPageRoutingModule
+    CardPageRoutingModule,
+    SwiperModule
   ],
   declarations: [CardPage]
 })
